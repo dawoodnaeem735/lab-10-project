@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sign Up</title>
+
+    <!-- Font Awesome (icons ke liye) -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <section class="login-section">
+
+        <div class="login-container">
+
+            <!-- Left Image -->
+            <div class="login-image">
+                <img src="istockphoto-851716412-612x612-removebg-preview.png" alt="Login Image">
+            </div>
+
+            <!-- Right Form -->
+            <div class="login-form">
+
+                <h2>Sign Up</h2>
+
+                <form id="signupForm">
+
+                    <div class="input-group">
+                        <input type="email" id="signupEmail" required>
+                        <label>Email address</label>
+                    </div>
+
+                    <div class="input-group">
+                        <input type="password" id="signupPassword" required>
+                        <label>Password</label>
+                    </div>
+
+                    <div class="input-group">
+                        <input type="number" id="signupAge" required>
+                        <label>Age</label>
+                    </div>
+
+                    <div class="input-group">
+                        <select id="signupGender" required>
+                            <option value="" disabled selected></option>
+                            <option value="male">Male</option>
+                            <option value="female">Female</option>
+                            <option value="other">Other</option>
+                        </select>
+                        <label>Gender</label>
+                    </div>
+
+                    <button type="submit" class="login-btn">Sign Up</button>
+
+                    <p class="register-text">
+                        Already have an account?
+                        <a href="login.html">Login</a>
+                    </p>
+
+                </form>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <footer class="footer">
+        <div class="footer-content">
+            <h2>SUPEX FITNESS</h2>
+            <p>Push your limits. Transform your body.</p>
+            <span>© 2025 Power Gym. All Rights Reserved.</span>
+        </div>
+    </footer>
+
+    <script src="signup.js"></script>
+
+</body>
+
+</html>
